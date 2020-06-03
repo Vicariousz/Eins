@@ -3,39 +3,68 @@
 	<head>
 		<title>Pizza Pazza</title>
 		<link rel="stylesheet" href="assets/css/bulma.min.css">
-		<style>
-			.hero-image {
-			  background-image: url("assets/img/picture.jpg");
-			  height: 50%;
-			  background-position: center;
-			  position: relative;
-			}
-
-			.hero-text {
-			  text-align: center;
-			  position: absolute;
-			  top: 50%;
-			  left: 50%;
-			  color: white;
-			}
-
-			.p-5 {
-				padding: 5px;
-			}
-
-			.m-5 {
-				margin: 5px;
-			}
-
-			p {
-				background-color: grey;
-			}
-
-		</style>
-
-
+		<link rel="stylesheet" href="assets/css/zoraya.css">
 	</head>
 	<body>
+		<section class="hero pizza-hero is-medium">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title has-text-white is-size-1">
+						Pizza for all
+					</h1>
+					<h2 class="subtitle has-text-white">
+						Kauf da!
+					</h2>
+				</div>
+			</div>
+		</section>
+
+		<div class="container is-widescreen">
+			<div class="columns">
+				<div class="column">
+					<h1 class="is-size-1 is-centered">Menu</h1>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column">
+					<aside class="menu">
+						<p class="menu-label">
+							Menu
+						</p>
+						<ul class="menu-list">
+							<li>
+								<a href="#Beliebte Gerichte">Beliebte Gerichte</a>
+							</li>
+							<li>
+								<a href="#Insalata">Insalata</a>
+							</li>
+							<li>
+								<a href="#Pizza">Pizza</a>
+							</li>
+							<li>
+								<a href="#Aufläufe">Aufläufe</a>
+							</li>
+							<li>
+								<a href="#Spezialitäten">Spezialitäten</a>
+							</li>
+							<li>
+								<a href="#Alkoholfreie Getränke">Alkoholfreie Getränke</a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+				<div class="column has-background-danger">
+					Second column
+				</div>
+				<div class="column has-background-grey-light">
+					Third column
+				</div>
+			</div>
+		</div>
+
+
+
+
 		<div class="hero-image">
 			<img src="assets/img/picture.jpg" alt="picture" />
 			<div class="hero-text">
@@ -91,21 +120,12 @@
 		<!-- MODAL -->
 		<div id="zipModal" class="modal">
 			<div class="modal-background"></div>
-			<div class="modal-content">
-
+			<div class="modal-content has-background-white is-rounded">
+				<h1>dies ist ein test</h1>
 			</div>
 			<button class="modal-close is-large" aria-label="close"></button>
 		</div>
 
-
-		<!-- MODAL -->
-		<div id="zipModal2" class="modal">
-			<div class="modal-background"></div>
-			<div class="modal-content">
-
-			</div>
-			<button class="modal-close is-large" aria-label="close"></button>
-		</div>
 		<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
