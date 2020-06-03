@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Pizza Pazza</title>
+		<link rel="stylesheet" href="assets/css/bulma.min.css">
+		<style>
+			.hero-image {
+			  background-image: url("assets/img/picture.jpg");
+			  height: 50%;
+			  background-position: center;
+			  position: relative;
+			}
+
+			.hero-text {
+			  text-align: center;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  color: white;
+			}
+
+			.p-5 {
+				padding: 5px;
+			}
+
+			.m-5 {
+				margin: 5px;
+			}
+
+			p {
+				background-color: grey;
+			}
+
+		</style>
+
+
+	</head>
+	<body>
+		<div class="hero-image">
+			<img src="assets/img/picture.jpg" alt="picture" />
+			<div class="hero-text">
+				<h1 style="font-size:60px">Pizza Pazza Köln Sülz</h1>
+			</div>
+		</div>
+
+		<a href="./Bewertungen.html">Bewertungen</a> <a href="./Kontaktdaten.html">Kontaktdaten</a> <a href="./Impressum.html">Impressum</a>
+		<h2>Unser Menü</h2>
+		<div class="m-5">
+			<a href="#Beliebte Gerichte">Beliebte Gerichte</a> <br>
+			<a href="#Insalata">Insalata</a> <br>
+			<a href="#Pizza">Pizza</a> <br>
+			<a href="#Aufläufe">Aufläufe</a> <br>
+			<a href="#Spezialitäten">Spezialitäten</a> <br>
+			<a href="#Alkoholfreie Getränke">Alkoholfreie Getränke</a> <br>
+		</div>
+
+		<p>
+			Bis 18 Uhr erhalten Sie bei jeder Bestellung ein alkoholfreies Getränk 0,33l nach Wahl gratis zu Ihrer Bestellung!
+			Bitte geben Sie Ihre Auswahl in den Kommentaren an.<br>
+			Ab <span id="uhrzeit"></span> Uhr
+		</p>
+
+		<div class="m-5">
+			<button id="zipButton" class="button is-primary">Auswahl</button>
+		</div>
+
+		<div>
+			<h2 id="Beliebte Gerichte">Beliebte Gerichte</h2>
+			<hr>
+			<a href="Menu.html"><b>Pizza Salami</b></a>
+			<br>
+			<i>mit Rindersalami</i><br>
+			<hr width="200px" align="left" size=1 > >
+			<a href="Menu.html"><b>Pizza Marguerita</b></a><br>
+			<i>mit Tomaten, Käse und Oregano</i><br>
+			<hr width="200px" align="left" size=1> >
+			<a href="Menu.html"><b>Pizza Mozzarella</b></a><br>
+			<i>mit Mozzarella und Basilikum</i><br>
+			<hr>
+			<h2 id="Insalata">Insalata</h2>
+			<hr>
+			<h2 id="Pizza">Pizza</h2>
+			<hr>
+			<h2 id="Aufläufe">Aufläufe</h2>
+			<hr>
+			<h2 id="Spezialitäten">Spezialitäten</h2>
+			<hr>
+			<h2 id="Alkoholfreie Getränke">Alkoholfreie Getränke</h2>
+		</div>
+
+		<!-- MODAL -->
+		<div id="zipModal" class="modal">
+			<div class="modal-background"></div>
+			<div class="modal-content">
+
+			</div>
+			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+
+
+		<!-- MODAL -->
+		<div id="zipModal2" class="modal">
+			<div class="modal-background"></div>
+			<div class="modal-content">
+
+			</div>
+			<button class="modal-close is-large" aria-label="close"></button>
+		</div>
+		<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>

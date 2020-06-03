@@ -1,0 +1,30 @@
+{
+  "name": "zoraya/zoraya",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Zoraya\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": {
+      "*": "dist",
+      "inferno/*": "source"
+    },
+    "platform": {
+      "php": "7.4"
+    },
+    "use-include-path": true,
+    "sort-packages": true,
+    "github-protocols": [
+      "https"
+    ]
+  },
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8080 -t public/"
+  }
+}
