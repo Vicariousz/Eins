@@ -4,5 +4,5 @@ $('.modal-close').click(function() {
 });
 
 $('#zipButton').click(function() {
-    $(this).addClass('is-active');
+    $('#zipModal').addClass('is-active');
 });

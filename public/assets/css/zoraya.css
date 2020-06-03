@@ -1,0 +1,33 @@
+
+.hero-image {
+    background-image: url("../img/picture.jpg");
+    height: 50%;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+p {
+    background-color: grey;
+}
+
+
+.pizza-hero {
+    background-image: url("../img/p1.jpg");
+    background-repeat: no-repeat;
+}
